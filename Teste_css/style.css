@@ -12,5 +12,5 @@ button{
     
   }
   div{
-    justify-content: center;
+    flex-direction: row;
   }
