@@ -1,0 +1,29 @@
+h4 {
+    color:cadetblue;
+    font-size: larger;
+  }
+
+a {
+    color: darkgreen;
+    font-size: larger;
+    padding: 10px;
+   
+  }
+  
+button{
+    color:yellow;
+    border-radius: 10px;
+    margin: 50px 0px 0px 100px;         /* topo:     margem de 100px */
+                                           /* direita:  margem de 0px  */
+                                           /* inferior: margem de 0px */
+                                           /* esquerda: margem de 100px  */
+    padding: 15px;
+    background-color: black;
+  }
+img{
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%; /* 50px para arredondar as bordas
+                         50% para deixar em formato circular */
+}

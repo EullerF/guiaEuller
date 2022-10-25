@@ -4,13 +4,9 @@ label {
   }
   
 button{
-    color:blue;
-    border-radius: 25px;
+    color:yellow;
+    border-radius: 10px;
   }
   input{
     border-radius: 10px;
-    
-  }
-  div{
-    flex-direction: row;
   }
