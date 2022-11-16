@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Script com uma função onClick</title>
+</head>
+<body>
+    
+
+   <input id="textinput" name="textinput" value="" type="text">
+   <button onclick="enviar()">Confirmar</button>
+
+   <script type="text/javascript">
+    function enviar(){
+        var valor = document.getElementById("textinput").value;
+        alert("Você digitou: " + valor);
+    }
+   </script>
+
+</body>
+</html>
