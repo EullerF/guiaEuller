@@ -20,18 +20,38 @@
             <a class="menu-barras" href="javascript: void(0)" onclick="mostrarMenu()">
                 <i id="icone-menu" class="fas fa-bars"></i>
             </a>
-            <input id="textinput" name="textinput" value="" type="text">
-            <button onclick="enviar()">Confirmar</button>
+            <div>
+                <h2 id="demo"></h2>
+        
+                <form id="formulario">
+                    <input type="number" placeholder="Digite um número" id="number"> 
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
         </div>
     </header>
-    
 
-   <script type="text/javascript">
-    function enviar(){
-        var valor = document.getElementById("textinput").value;
-        alert("Você digitou: " + valor);
-    }
-   </script>
+
+    <script>
+        var a = 0;
+        
+        var form = document.getElementById('formulario');
+        a = document.getElementById('number');
+        
+        form.addEventListener('submit', function(e) {
+            // VERIFICA SE É PAR
+            if(a.value%2==0){
+            document.getElementById("demo").innerHTML = 'PAR';
+            }
+            else{
+            document.getElementById("demo").innerHTML = 'IMPAR';
+            }
+            // impede o envio do form
+            e.preventDefault();
+        });
+        
+        
+        </script> 
 
 <script>
     // Exemplo de menu
