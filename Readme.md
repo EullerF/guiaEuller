@@ -57,7 +57,7 @@ Comandos Básicos de Git para Repositórios online do Github
 	Exemplo:
 	
 	```sh 
-	git remote add origin https://github.com/Thiago-Nascimento/referencia-git
+	git remote add origin https://github.com/EullerF/guiaEuller
 	```
 2. Com o repositório vinculado, podemos subir os commits para a nuvem
 
@@ -78,7 +78,7 @@ Comandos Básicos de Git para Repositórios online do Github
 	Exemplo:
 	
 	```sh 
-	git clone https://github.com/Thiago-Nascimento/referencia-git
+	git clone https://github.com/EullerF/guiaEuller
 	```
 
 ### Sincronizando um repositório local com o da nuvem
@@ -185,7 +185,7 @@ Comandos Básicos de Git para Repositórios online do Github
         Por exemplo:
 
         ```sh 
-        git remote add origin https://github.com/Thiago-Nascimento/referencia-git
+        git remote add origin https://github.com/EullerF/guiaEuller
         ```
 
         Esse comando vincula um repositório remoto (< link do repositório >), utilizando um "apelido" (< apelido do repositório>).
@@ -211,7 +211,7 @@ Comandos Básicos de Git para Repositórios online do Github
     Por exemplo:
 
     ```sh 
-    git clone https://github.com/Thiago-Nascimento/referencia-git
+    git clone https://github.com/EullerF/guiaEuller
     ```
 
     Esse comando vai fazer uma cópia do repositório, inclusive já pronta e linkada para os futuros commits e pushes.
