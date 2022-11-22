@@ -2,39 +2,37 @@
 <html>
     <head>
         <title>Exemplo com Script</title>
+        <link href="./style.css" rel="stylesheet">
     </head>
 <body>
 
-<h2 id="demo"></h2>
 
 <form id="formulario">
-    <input type="number" placeholder="Digite um número" id="number"> 
+    <h2 id="demo"></h2>
+    <input type="number" placeholder="Digite um número" id="number1"> 
+    <input type="number" placeholder="Digite um número" id="number2"> 
+    <input type="number" placeholder="Digite um número" id="number3"> 
     <input type="submit" value="Enviar">
 </form>
 
 <script>
-var a = 0;
-//var input = document.querySelector("#number");
-//a = input.value;
-//let data_hora = new Date();
-//let hora = data_hora.getHours();
 
 var form = document.getElementById('formulario');
-a = document.getElementById('number');
+let N1 = document.getElementById('number1');
+let N2 = document.getElementById('number2');
+let N3 = document.getElementById('number3');
 
 form.addEventListener('submit', function(e) {
     // VERIFICA SE É PAR
-    if(a.value%2==0){
-    document.getElementById("demo").innerHTML = 'PAR';
-    }
+    //if(a.value%2==0){
+    document.getElementById("demo").innerHTML = 'Maior='+N1.value+' Meio='+N2.value+' Menor='+N3.value;
+   /* }
     else{
     document.getElementById("demo").innerHTML = 'IMPAR';
-    }
+    }*/
     // impede o envio do form
     e.preventDefault();
 });
-
-
 </script> 
 </body>
 </html>
